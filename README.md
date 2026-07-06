@@ -188,7 +188,7 @@ understanding data before applying machine learning models.
 
 <p>Shows the relationship between numerical features.</p>
 
-<img src="images/heatmap.png" width="800">
+<img src="heatmap.png" width="800">
 
 <br><br>
 
@@ -196,7 +196,7 @@ understanding data before applying machine learning models.
 
 <p>Displays pairwise relationships between numerical variables grouped by survival.</p>
 
-<img src="images/pairplot.png" width="800">
+<img src="pairplot.png" width="800">
 
 <br><br>
 
@@ -204,15 +204,7 @@ understanding data before applying machine learning models.
 
 <p>Shows the age distribution of passengers.</p>
 
-<img src="images/age_histogram.png" width="800">
-
-<br><br>
-
-<h3>💰 Fare Distribution</h3>
-
-<p>Displays the distribution of passenger ticket fares.</p>
-
-<img src="images/fare_histogram.png" width="800">
+<img src="age_histogram.png" width="800">
 
 <br><br>
 
@@ -220,23 +212,14 @@ understanding data before applying machine learning models.
 
 <p>Identifies fare outliers.</p>
 
-<img src="images/fare_boxplot.png" width="800">
-
-<br><br>
-
-<h3>👤 Age Box Plot</h3>
-
-<p>Shows age distribution and outliers.</p>
-
-<img src="images/age_boxplot.png" width="800">
-
+<img src="fare_boxplot.png" width="800">
 <br><br>
 
 <h3>📍 Scatter Plot (Age vs Fare)</h3>
 
 <p>Illustrates the relationship between passenger age and ticket fare.</p>
 
-<img src="images/scatterplot.png" width="800">
+<img src="scatterplot.png" width="800">
 
 <br><br>
 
@@ -244,7 +227,7 @@ understanding data before applying machine learning models.
 
 <p>Shows the number of survivors and non-survivors.</p>
 
-<img src="images/survival_count.png" width="800">
+<img src="survival_count.png" width="800">
 
 <br><br>
 
@@ -252,7 +235,7 @@ understanding data before applying machine learning models.
 
 <p>Compares survival rates between male and female passengers.</p>
 
-<img src="images/gender_survival.png" width="800">
+<img src="gender_survival.png" width="800">
 
 <br><br>
 
@@ -260,7 +243,7 @@ understanding data before applying machine learning models.
 
 <p>Displays survival rates across passenger classes.</p>
 
-<img src="images/pclass_survival.png" width="800">
+<img src="pclass_survival.png" width="800">
 
 <br><br>
 
@@ -268,7 +251,7 @@ understanding data before applying machine learning models.
 
 <p>Shows survival distribution based on embarkation port.</p>
 
-<img src="images/embarked_survival.png" width="800">
+<img src="embarked_survival.png" width="800">
 
 <br><br>
 
@@ -276,7 +259,7 @@ understanding data before applying machine learning models.
 
 <p>Compares age distribution between survivors and non-survivors.</p>
 
-<img src="images/age_survival.png" width="800">
+<img src="age_survival.png" width="800">
 
 <hr>
 
@@ -319,20 +302,18 @@ Titanic-EDA/
 ├── train.csv
 ├── Titanic_EDA.ipynb
 ├── Titanic_EDA_Report.pdf
-├── README.md
-│
 └── images/
-    ├── heatmap.png
-    ├── pairplot.png
-    ├── age_histogram.png
-    ├── fare_histogram.png
-    ├── fare_boxplot.png
-    ├── age_boxplot.png
-    ├── scatterplot.png
-    ├── survival_count.png
-    ├── gender_survival.png
-    ├── pclass_survival.png
-    └── embarked_survival.png
+│   ├── heatmap.png
+│   ├── pairplot.png
+│   ├── age_histogram.png
+│   ├── age_boxplot.png
+│   ├── scatterplot.png
+│   ├── survival_count.png
+│   ├── gender_survival.png
+│   ├── pclass_survival.png
+│   └── embarked_survival.png
+|   └── age_survival.png
+└── README.md
 </pre>
 
 <hr>
